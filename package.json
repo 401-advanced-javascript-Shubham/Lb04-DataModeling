@@ -1,0 +1,25 @@
+{
+  "name": "Lb04-DataModeling",
+  "version": "1.0.0",
+  "description": "## Async",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/.js",
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --watchAll --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-Shubham/Lb04-DataModeling.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-Shubham/Lb04-DataModeling/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-Shubham/Lb04-DataModeling#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
