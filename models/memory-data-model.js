@@ -29,6 +29,28 @@ class Model {
     return Promise.resolve();
   }
 
+  sanitize(entry) {
+
+    let valid = true;
+    let record = {};
+
+    Object.keys(this.schema).forEach(field => {
+      if (this.schema[field].required) {
+        if (entry[field]) {
+          record[field] = entry[field];
+        } else {
+          valid = false;
+        }
+      }
+      else {
+        record[field] = entry[field];
+      }
+    });
+
+    return valid ? record : undefined;
+  }
+
+
 }
 
 module.exports = Model;

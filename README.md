@@ -5,8 +5,8 @@
 ### Author: Shubham Majumdar
 
 ### Links and Resources
-* [submission PR](https://github.com/401-advanced-javascript-Shubham/Lab03--Async/pull/2)
-* [Github Actions](https://github.com/401-advanced-javascript-Shubham/Lab03--Async/actions)
+* [submission PR](https://github.com/401-advanced-javascript-Shubham/Lb04-DataModeling/pull/1)
+* [Github Actions](https://github.com/401-advanced-javascript-Shubham/Lb04-DataModeling/actions)
 
 #### Documentation
 *
